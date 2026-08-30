@@ -21,6 +21,17 @@ public class CubeState {
         Arrays.fill(back,Color.BLUE);
     }
 
+    
+
+    @Override
+    public String toString() {
+        return "CubeState [up=" + Arrays.toString(up) + ", right=" + Arrays.toString(right) + ", front="
+                + Arrays.toString(front) + ", down=" + Arrays.toString(down) + ", left=" + Arrays.toString(left)
+                + ", back=" + Arrays.toString(back) + "]";
+    }
+
+
+
     private Color[] getFaceStickers(Face face) {
         return switch(face) {
             case UP -> up;
