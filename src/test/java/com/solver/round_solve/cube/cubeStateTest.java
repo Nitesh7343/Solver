@@ -359,4 +359,19 @@ public class cubeStateTest {
 
         assertEquals(false, cube.hasUniqueCenterColors());
     }
+
+    @Test
+    void shouldCreateCubeFromKociembaString() {
+        CubeState originalCube = new CubeState();
+
+        originalCube.applyMove(Move.RIGHT);
+        originalCube.applyMove(Move.UP);
+        originalCube.applyMove(Move.FRONT_PRIME);
+
+        String cubeString = originalCube.toKociembaString();
+
+        CubeState recreatedCube = CubeState.fromKociembaString(cubeString);
+
+        assertEquals(cubeString, recreatedCube.toKociembaString());
+    }
 }
