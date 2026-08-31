@@ -180,13 +180,13 @@ public class CubeState {
         up[7] = left[5];
         up[8] = left[2];
 
-        left[2] = down[2];
+        left[2] = down[0];
         left[5] = down[1];
-        left[8] = down[0];
+        left[8] = down[2];
 
-        down[0] = right[0];
+        down[0] = right[6];
         down[1] = right[3];
-        down[2] = right[6];
+        down[2] = right[0];
 
         right[0] = upLeft;
         right[3] = upMiddle;
@@ -285,13 +285,13 @@ public class CubeState {
         up[1] = right[5];
         up[2] = right[8];
 
-        right[2] = down[6];
+        right[2] = down[8];
         right[5] = down[7];
-        right[8] = down[8];
+        right[8] = down[6];
 
-        down[6] = left[6];
+        down[6] = left[0];
         down[7] = left[3];
-        down[8] = left[0];
+        down[8] = left[6];
 
         left[0] = upRight;
         left[3] = upMiddle;
@@ -371,5 +371,51 @@ public class CubeState {
         }
 
         throw new IllegalStateException("Sticker color does not match any center color.");
+    }
+
+    public static CubeState fromKociembaString(String cubeState) {
+        if (cubeState == null || cubeState.length() != 54) {
+            throw new IllegalArgumentException(
+                    "Cube state must contain exactly 54 characters."
+            );
+        }
+
+        CubeState cube = new CubeState();
+
+        for (int faceIndex = 0; faceIndex < Face.values().length; faceIndex++) {
+            Face face = Face.values()[faceIndex];
+
+            for (int stickerIndex = 0; stickerIndex < 9; stickerIndex++) {
+                char notation = cubeState.charAt(faceIndex * 9 + stickerIndex);
+
+                cube.setSticker(
+                        face,
+                        stickerIndex,
+                        colorForKociembaNotation(notation)
+                );
+            }
+        }
+
+        if (!cube.hasCorrectColorCounts()) {
+            throw new IllegalArgumentException(
+                    "Each face notation (U, R, F, D, L, B) must appear exactly 9 times."
+            );
+        }
+
+        return cube;
+    }
+
+    private static Color colorForKociembaNotation(char notation) {
+        return switch (notation) {
+            case 'U' -> Color.WHITE;
+            case 'R' -> Color.RED;
+            case 'F' -> Color.GREEN;
+            case 'D' -> Color.YELLOW;
+            case 'L' -> Color.ORANGE;
+            case 'B' -> Color.BLUE;
+            default -> throw new IllegalArgumentException(
+                    "Invalid cube notation: " + notation
+            );
+        };
     }
 }
