@@ -51,6 +51,13 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>io.github.toger2021</groupId>
+			<artifactId>cube-kociemba</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
