@@ -16,7 +16,9 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedOrigins("http://localhost:5173",
-                                "https://solver-orpin.vercel.app")
+                                "https://solver-orpin.vercel.app",
+                                "https://solver-git-main-niteshs-projects-92adac14.vercel.app",
+                                "https://solver-d7e9nw6pm-niteshs-projects-92adac14.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
