@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0faf943-667a-4a7a-8f8c-8f207c8790ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/controls/MoveControls.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/cube/RubiksCube.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/cube/CubeState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/cube/notation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/cube/visualMapping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/cubeApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/api/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/api/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/api/CubeSolverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/api/CubeSolverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/api/dto/ApplyMoveRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/api/dto/ApplyMoveRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/api/dto/CubeStateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/api/dto/CubeStateResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/api/dto/ScrambleCubeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/api/dto/ScrambleCubeResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/api/dto/SolveCubeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/api/dto/SolveCubeRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/api/dto/SolveCubeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/api/dto/SolveCubeResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/cube/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/cube/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/cube/CubeScrambleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/cube/CubeScrambleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/cube/CubeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/cube/CubeState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/cube/Face.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/cube/Face.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/cube/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/cube/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/cube/ScrambleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/cube/ScrambleResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solver/round_solve/solver/KociembaSolverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/solver/KociembaSolverService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solver/round_solve/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/solver/round_solve/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solver/round_solve/api/CubeSolverControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/solver/round_solve/api/CubeSolverControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solver/round_solve/cube/CubeScrambleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/solver/round_solve/cube/CubeScrambleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solver/round_solve/cube/MoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/solver/round_solve/cube/MoveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solver/round_solve/cube/cubeStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/solver/round_solve/cube/cubeStateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solver/round_solve/solver/KociembaSolverServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/solver/round_solve/solver/KociembaSolverServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/solver/round_solve/config/CorsConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,36 +22,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Nitesh7343"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nitesh7343&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Nitesh7343/Solver.git",
-    "accountId": "85710d9a-aa29-4c0f-a187-5664e286bd3e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nitesh7343/Solver.git&quot;,
+    &quot;accountId&quot;: &quot;85710d9a-aa29-4c0f-a187-5664e286bd3e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3J1K6HTD6mndZkrluYWGlnsFBZ8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e0faf943-667a-4a7a-8f8c-8f207c8790ed" name="Changes" comment="" />
